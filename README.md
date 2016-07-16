@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ITDSystems/alvex-meta.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-meta)
+
 Alvex
 =====
 
