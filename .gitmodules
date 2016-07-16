@@ -1,0 +1,12 @@
+[submodule "alvex-common"]
+	path = alvex-common
+	url = https://github.com/ITDSystems/alvex-common.git
+[submodule "alvex-orgchart"]
+	path = alvex-orgchart
+	url = https://github.com/ITDSystems/alvex-orgchart.git
+[submodule "alvex-custom-workflows"]
+	path = alvex-custom-workflows
+	url = https://github.com/ITDSystems/alvex-custom-workflows.git
+[submodule "alvex-board-collaboration"]
+	path = alvex-board-collaboration
+	url = https://github.com/ITDSystems/alvex-board-collaboration.git
