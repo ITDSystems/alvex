@@ -23,3 +23,5 @@ At the moment following modules are available:
 * [orgchart](https://github.com/ITDSystems/alvex-orgchart)
 
 Zip produced during packaging contains two folders `repo` and `share` with jars that are supposed to be installed to corresponding Alfresco war.
+
+**Note**: this project requires Maven 3.3.9 at least.
