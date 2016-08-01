@@ -20,4 +20,4 @@ script:
     - ./mvn.sh clean package
     - ./mvn.sh clean package -P make-jar
     - rm -rf $HOME/.m2/repository/com/alvexcore
-    - ./mvn.sh -f packaging_pom.xml -P orgchart,board-collaboration clean package
+    - ./mvn.sh -f packaging_pom.xml -P orgchart clean package

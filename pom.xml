@@ -28,12 +28,10 @@
     <modules>
         <module>alvex-common/activiti-connector/repo</module>
         <module>alvex-common/utils/repo</module>
-        <module>alvex-board-collaboration/repo</module>
         <module>alvex-custom-workflows/repo</module>
         <module>alvex-orgchart/repo</module>
 
         <module>alvex-common/utils/share</module>
-        <module>alvex-board-collaboration/share</module>
         <module>alvex-custom-workflows/share</module>
         <module>alvex-orgchart/share</module>
     </modules>

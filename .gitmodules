@@ -7,6 +7,3 @@
 [submodule "alvex-custom-workflows"]
 	path = alvex-custom-workflows
 	url = https://github.com/ITDSystems/alvex-custom-workflows.git
-[submodule "alvex-board-collaboration"]
-	path = alvex-board-collaboration
-	url = https://github.com/ITDSystems/alvex-board-collaboration.git
