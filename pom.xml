@@ -26,7 +26,6 @@
     </distributionManagement>    
 
     <modules>
-        <module>alvex-common/activiti-connector/repo</module>
         <module>alvex-common/utils/repo</module>
         <module>alvex-custom-workflows/repo</module>
         <module>alvex-orgchart/repo</module>
