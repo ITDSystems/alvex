@@ -7,3 +7,6 @@
 [submodule "alvex-custom-workflows"]
 	path = alvex-custom-workflows
 	url = https://github.com/ITDSystems/alvex-custom-workflows.git
+[submodule "alvex-uploader"]
+	path = alvex-uploader
+	url = https://github.com/ITDSystems/alvex-uploader.git

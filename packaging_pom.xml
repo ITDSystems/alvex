@@ -172,6 +172,23 @@
             </dependencies>
         </profile>
         <profile>
+            <id>uploader</id>
+            <dependencies>
+                <dependency>
+                    <groupId>com.alvexcore.repo</groupId>
+                    <artifactId>uploader</artifactId>
+                    <version>1.1</version>
+                    <classifier>installable</classifier>
+                </dependency>
+                <dependency>
+                    <groupId>com.alvexcore.share</groupId>
+                    <artifactId>uploader</artifactId>
+                    <version>1.1</version>
+                    <classifier>installable</classifier>
+                </dependency>
+            </dependencies>
+        </profile>
+        <profile>
             <id>board-collaboration</id>
             <dependencies>
                 <dependency>
