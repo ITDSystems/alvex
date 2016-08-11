@@ -21,7 +21,7 @@ At the moment following modules are available:
 * [board-collaboration](https://github.com/ITDSystems/alvex-board-collaboration)
 * [custom-workflows](https://github.com/ITDSystems/alvex-custom-workflows)
 * [orgchart](https://github.com/ITDSystems/alvex-orgchart)
-* [propject-management](https://github.com/ITDSystems/alvex-project-management)
+* [project-management](https://github.com/ITDSystems/alvex-project-management)
 
 Zip produced during packaging contains two folders `repo` and `share` with jars that are supposed to be installed to corresponding Alfresco war.
 
