@@ -10,3 +10,6 @@
 [submodule "alvex-uploader"]
 	path = alvex-uploader
 	url = https://github.com/ITDSystems/alvex-uploader.git
+[submodule "alvex-project-management"]
+	path = alvex-project-management
+	url = https://github.com/ITDSystems/alvex-project-management.git
