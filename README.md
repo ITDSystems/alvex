@@ -18,10 +18,10 @@ Packaging pre-built jars
 To create zip file that contains only required Alvex components use `mvn -f packaging_pom.xml -P MODULES package`, where `MODULES` is comma-separated list of modules.
 At the moment following modules are available:
 
-* [board-collaboration](https://github.com/ITDSystems/alvex-board-collaboration)
 * [custom-workflows](https://github.com/ITDSystems/alvex-custom-workflows)
 * [orgchart](https://github.com/ITDSystems/alvex-orgchart)
 * [project-management](https://github.com/ITDSystems/alvex-project-management)
+* [reports](https://github.com/ITDSystems/alvex-reports)
 
 Zip produced during packaging contains two folders `repo` and `share` with jars that are supposed to be installed to corresponding Alfresco war.
 

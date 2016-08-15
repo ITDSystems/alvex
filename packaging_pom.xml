@@ -189,22 +189,39 @@
             </dependencies>
         </profile>
         <profile>
-            <id>board-collaboration</id>
+            <id>project-management</id>
             <dependencies>
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
-                    <artifactId>board-collaboration</artifactId>
+                    <artifactId>project-management</artifactId>
                     <version>1.1</version>
                     <classifier>installable</classifier>
                 </dependency>
                 <dependency>
                     <groupId>com.alvexcore.share</groupId>
-                    <artifactId>board-collaboration</artifactId>
+                    <artifactId>project-management</artifactId>
                     <version>1.1</version>
                     <classifier>installable</classifier>
                 </dependency>
             </dependencies>
         </profile>
-    </profiles>
+        <profile>
+            <id>reports</id>
+            <dependencies>
+                <dependency>
+                    <groupId>com.alvexcore.repo</groupId>
+                    <artifactId>reports</artifactId>
+                    <version>1.1</version>
+                    <classifier>installable</classifier>
+                </dependency>
+                <dependency>
+                    <groupId>com.alvexcore.share</groupId>
+                    <artifactId>reports</artifactId>
+                    <version>1.1</version>
+                    <classifier>installable</classifier>
+                </dependency>
+            </dependencies>
+        </profile>
+     </profiles>
 
 </project>

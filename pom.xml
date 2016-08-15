@@ -31,12 +31,14 @@
         <module>alvex-orgchart/repo</module>
         <module>alvex-uploader/repo</module>
         <module>alvex-project-management/repo</module>
+        <module>alvex-reports/repo</module>
 
         <module>alvex-common/utils/share</module>
         <module>alvex-custom-workflows/share</module>
         <module>alvex-orgchart/share</module>
         <module>alvex-uploader/share</module>
         <module>alvex-project-management/share</module>
+        <module>alvex-reports/share</module>
     </modules>
 
     <build>
