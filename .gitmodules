@@ -22,3 +22,6 @@
 [submodule "alvex-inform-policy-extension"]
 	path = alvex-inform-policy-extension
 	url = https://github.com/ITDSystems/alvex-inform-policy-extension
+[submodule "alvex-workflow-shortcut-dashlet"]
+	path = alvex-workflow-shortcut-dashlet
+	url = https://github.com/ITDSystems/alvex-workflow-shortcut-dashlet

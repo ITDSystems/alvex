@@ -31,6 +31,7 @@
         <module>alvex-orgchart/repo</module>
         <module>alvex-uploader/repo</module>
         <module>alvex-project-management/repo</module>
+        <module>alvex-workflow-shortcut-dashlet/repo</module>
         <module>alvex-reports/repo</module>
         <module>alvex-infavorites-document-association/repo</module>
         <module>alvex-inform-policy-extension/repo</module>
@@ -40,6 +41,7 @@
         <module>alvex-orgchart/share</module>
         <module>alvex-uploader/share</module>
         <module>alvex-project-management/share</module>
+        <module>alvex-workflow-shortcut-dashlet/share</module>
         <module>alvex-reports/share</module>
     </modules>
 
