@@ -12,7 +12,7 @@ cache:
 before_script:
     - wget https://raw.githubusercontent.com/ITDSystems/alvex-common/master/scripts/mvn.sh
     - chmod +x mvn.sh
-    - echo "MAVEN_OPTS='-Xmx2g -XX:MaxPermSize=512m'" > ~/.mavenrc
+    - echo "MAVEN_OPTS='-Xmx3g -XX:MaxPermSize=512m'" > ~/.mavenrc
 
 
 script:
