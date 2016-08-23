@@ -25,3 +25,6 @@
 [submodule "alvex-workflow-shortcut-dashlet"]
 	path = alvex-workflow-shortcut-dashlet
 	url = https://github.com/ITDSystems/alvex-workflow-shortcut-dashlet
+[submodule "alvex-manager-dashboard-tasks"]
+	path = alvex-manager-dashboard-tasks
+	url = https://github.com/ITDSystems/alvex-manager-dashboard-tasks

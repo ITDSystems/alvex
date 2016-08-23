@@ -23,6 +23,10 @@ At the moment following modules are available:
 * [project-management](https://github.com/ITDSystems/alvex-project-management)
 * [reports](https://github.com/ITDSystems/alvex-reports)
 * [uploader](https://github.com/ITDSystems/alvex-uploader)
+* [manager-dashboard-tasks](https://github.com/ITDSystems/alvex-manager-dashboard-tasks)
+* [inform-policy](https://github.com/ITDSystems/alvex-inform-policy-extension)
+* [workflow-shortcut-dashlet](https://github.com/ITDSystems/alvex-workflow-shortcut-dashlet)*
+* [infavorites-document-association](https://github.com/ITDSystems/alvex-infavorites-document-association)
  
 Zip produced during packaging contains two folders `repo` and `share` with jars that are supposed to be installed to corresponding Alfresco war.
 

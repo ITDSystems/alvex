@@ -222,7 +222,7 @@
                 </dependency>
             </dependencies>
         </profile>
-         <profile>
+        <profile>
             <id>reports</id>
             <dependencies>
                 <dependency>
@@ -240,6 +240,23 @@
             </dependencies>
         </profile>
         <profile>
+            <id>manager-dashboard-tasks</id>
+            <dependencies>
+                <dependency>
+                    <groupId>com.alvexcore.repo</groupId>
+                    <artifactId>manager-dashboard-tasks</artifactId>
+                    <version>1.1</version>
+                    <classifier>installable</classifier>
+                </dependency>
+                <dependency>
+                    <groupId>com.alvexcore.share</groupId>
+                    <artifactId>manager-dashboard-tasks</artifactId>
+                    <version>1.1</version>
+                    <classifier>installable</classifier>
+                </dependency>
+            </dependencies>
+        </profile>
+         <profile>
             <id>infavorites-document-association</id>
             <dependencies>
                 <dependency>
