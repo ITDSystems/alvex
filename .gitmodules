@@ -16,3 +16,6 @@
 [submodule "alvex-reports"]
 	path = alvex-reports
 	url = https://github.com/ITDSystems/alvex-reports
+[submodule "alvex-infavorites-document-association"]
+	path = alvex-infavorites-document-association
+	url = https://github.com/ITDSystems/alvex-infavorites-document-association

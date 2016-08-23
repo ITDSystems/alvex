@@ -32,6 +32,7 @@
         <module>alvex-uploader/repo</module>
         <module>alvex-project-management/repo</module>
         <module>alvex-reports/repo</module>
+        <module>alvex-infavorites-document-association/repo</module>
 
         <module>alvex-common/utils/share</module>
         <module>alvex-custom-workflows/share</module>

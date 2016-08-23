@@ -222,6 +222,17 @@
                 </dependency>
             </dependencies>
         </profile>
-     </profiles>
+        <profile>
+            <id>infavorites-document-association</id>
+            <dependencies>
+                <dependency>
+                    <groupId>com.alvexcore.repo</groupId>
+                    <artifactId>infavorites-document-association</artifactId>
+                    <version>1.1</version>
+                    <classifier>installable</classifier>
+                </dependency>
+           </dependencies>
+        </profile>
+      </profiles>
 
 </project>
