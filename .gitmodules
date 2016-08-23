@@ -19,3 +19,6 @@
 [submodule "alvex-infavorites-document-association"]
 	path = alvex-infavorites-document-association
 	url = https://github.com/ITDSystems/alvex-infavorites-document-association
+[submodule "alvex-inform-policy-extension"]
+	path = alvex-inform-policy-extension
+	url = https://github.com/ITDSystems/alvex-inform-policy-extension
