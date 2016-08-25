@@ -1,14 +1,14 @@
 Component build status (latest version):
 
-| Component          | Status                                                                                                                                                    |
-|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Common             | [![Build Status](https://travis-ci.org/ITDSystems/alvex-common.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-common)                         |
-| Custom workflows   | [![Build Status](https://travis-ci.org/ITDSystems/alvex-custom-workflows.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-custom-workflows)     |
-| Orgchart           | [![Build Status](https://travis-ci.org/ITDSystems/alvex-orgchart.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-orgchart)                     |
-| Project management | [![Build Status](https://travis-ci.org/ITDSystems/alvex-project-management.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-project-management) |
-| Uploader           | [![Build Status](https://travis-ci.org/ITDSystems/alvex-uploader.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-uploader)                     |
-|                    |                                                                                                                                                           |
-| **Meta**           | [![Build Status](https://travis-ci.org/ITDSystems/alvex-meta.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-meta)                             |
+| Component                                                                    | Status                                                                                                                                                    |
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Common](https://github.com/ITDSystems/alvex-common)                         | [![Build Status](https://travis-ci.org/ITDSystems/alvex-common.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-common)                         |
+| [Custom workflows](https://github.com/ITDSystems/alvex-custom-workflows)     | [![Build Status](https://travis-ci.org/ITDSystems/alvex-custom-workflows.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-custom-workflows)     |
+| [Orgchart](https://github.com/ITDSystems/alvex-orgchart)                     | [![Build Status](https://travis-ci.org/ITDSystems/alvex-orgchart.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-orgchart)                     |
+| [Project management](https://github.com/ITDSystems/alvex-project-management) | [![Build Status](https://travis-ci.org/ITDSystems/alvex-project-management.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-project-management) |
+| [Uploader](https://github.com/ITDSystems/alvex-uploader)                     | [![Build Status](https://travis-ci.org/ITDSystems/alvex-uploader.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-uploader)                     |
+|                                                                              |                                                                                                                                                           |
+| **Meta**                                                                     | [![Build Status](https://travis-ci.org/ITDSystems/alvex-meta.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-meta)                             |
 
 
 Alvex
