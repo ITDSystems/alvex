@@ -13,3 +13,18 @@
 [submodule "alvex-project-management"]
 	path = alvex-project-management
 	url = https://github.com/ITDSystems/alvex-project-management.git
+[submodule "alvex-reports"]
+	path = alvex-reports
+	url = https://github.com/ITDSystems/alvex-reports
+[submodule "alvex-infavorites-document-association"]
+	path = alvex-infavorites-document-association
+	url = https://github.com/ITDSystems/alvex-infavorites-document-association
+[submodule "alvex-inform-policy-extension"]
+	path = alvex-inform-policy-extension
+	url = https://github.com/ITDSystems/alvex-inform-policy-extension
+[submodule "alvex-workflow-shortcut-dashlet"]
+	path = alvex-workflow-shortcut-dashlet
+	url = https://github.com/ITDSystems/alvex-workflow-shortcut-dashlet
+[submodule "alvex-manager-dashboard-tasks"]
+	path = alvex-manager-dashboard-tasks
+	url = https://github.com/ITDSystems/alvex-manager-dashboard-tasks
