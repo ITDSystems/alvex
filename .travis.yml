@@ -16,7 +16,7 @@ before_script:
 
 script:
     - rm -rf $HOME/.m2/repository/com/alvexcore
-    - ./mvn.sh -f packaging_pom.xml -P orgchart,uploader,inform-policy,infavorites-document-association,custom-workflows,manager-dashboard-tasks,project-management,reports,workflow-shortcut-dashlet clean package
+    - ./mvn.sh -P orgchart,uploader,inform-policy,infavorites-document-association,custom-workflows,manager-dashboard-tasks,project-management,reports,workflow-shortcut-dashlet clean package
 
 notifications:
   email:

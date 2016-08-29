@@ -7,7 +7,7 @@
     <groupId>com.alvexcore</groupId>
     <artifactId>alvex</artifactId>
     <packaging>pom</packaging>
-    <version>1.1</version>
+    <version>3.0-SNAPSHOT</version>
     <name>Alvex</name>
 
     <repositories>
@@ -143,13 +143,13 @@
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
                     <artifactId>orgchart</artifactId>
-                    <version>1.1</version>
+                    <version>1.29-SNAPSHOT</version>
                     <classifier>installable</classifier>
                 </dependency>
                 <dependency>
                     <groupId>com.alvexcore.share</groupId>
                     <artifactId>orgchart</artifactId>
-                    <version>1.1</version>
+                    <version>1.29-SNAPSHOT</version>
                     <classifier>installable</classifier>
                 </dependency>
             </dependencies>
@@ -160,13 +160,13 @@
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
                     <artifactId>custom-workflows</artifactId>
-                    <version>1.1</version>
+                    <version>1.22-SNAPSHOT</version>
                     <classifier>installable</classifier>
                 </dependency>
                 <dependency>
                     <groupId>com.alvexcore.share</groupId>
                     <artifactId>custom-workflows</artifactId>
-                    <version>1.1</version>
+                    <version>1.22-SNAPSHOT</version>
                     <classifier>installable</classifier>
                 </dependency>
             </dependencies>
@@ -177,13 +177,13 @@
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
                     <artifactId>uploader</artifactId>
-                    <version>1.1</version>
+                    <version>1.37-SNAPSHOT</version>
                     <classifier>installable</classifier>
                 </dependency>
                 <dependency>
                     <groupId>com.alvexcore.share</groupId>
                     <artifactId>uploader</artifactId>
-                    <version>1.1</version>
+                    <version>1.37-SNAPSHOT</version>
                     <classifier>installable</classifier>
                 </dependency>
             </dependencies>
@@ -194,13 +194,13 @@
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
                     <artifactId>project-management</artifactId>
-                    <version>1.1</version>
+                    <version>1.30-SNAPSHOT</version>
                     <classifier>installable</classifier>
                 </dependency>
                 <dependency>
                     <groupId>com.alvexcore.share</groupId>
                     <artifactId>project-management</artifactId>
-                    <version>1.1</version>
+                    <version>1.30-SNAPSHOT</version>
                     <classifier>installable</classifier>
                 </dependency>
             </dependencies>
@@ -211,13 +211,13 @@
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
                     <artifactId>workflow-shortcut-dashlet</artifactId>
-                    <version>1.1</version>
+                    <version>1.16-SNAPSHOT</version>
                     <classifier>installable</classifier>
                 </dependency>
                 <dependency>
                     <groupId>com.alvexcore.share</groupId>
                     <artifactId>workflow-shortcut-dashlet</artifactId>
-                    <version>1.1</version>
+                    <version>1.16-SNAPSHOT</version>
                     <classifier>installable</classifier>
                 </dependency>
             </dependencies>
@@ -228,13 +228,13 @@
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
                     <artifactId>reports</artifactId>
-                    <version>1.1</version>
+                    <version>0.20-SNAPSHOT</version>
                     <classifier>installable</classifier>
                 </dependency>
                 <dependency>
                     <groupId>com.alvexcore.share</groupId>
                     <artifactId>reports</artifactId>
-                    <version>1.1</version>
+                    <version>0.20-SNAPSHOT</version>
                     <classifier>installable</classifier>
                 </dependency>
             </dependencies>
@@ -245,13 +245,13 @@
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
                     <artifactId>manager-dashboard-tasks</artifactId>
-                    <version>1.1</version>
+                    <version>1.18-SNAPSHOT</version>
                     <classifier>installable</classifier>
                 </dependency>
                 <dependency>
                     <groupId>com.alvexcore.share</groupId>
                     <artifactId>manager-dashboard-tasks</artifactId>
-                    <version>1.1</version>
+                    <version>1.18-SNAPSHOT</version>
                     <classifier>installable</classifier>
                 </dependency>
             </dependencies>
@@ -262,7 +262,7 @@
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
                     <artifactId>infavorites-document-association</artifactId>
-                    <version>1.1</version>
+                    <version>1.2-SNAPSHOT</version>
                     <classifier>installable</classifier>
                 </dependency>
            </dependencies>
@@ -273,7 +273,7 @@
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
                     <artifactId>inform-policy</artifactId>
-                    <version>1.1</version>
+                    <version>1.2-SNAPSHOT</version>
                     <classifier>installable</classifier>
                 </dependency>
            </dependencies>
