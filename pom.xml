@@ -43,6 +43,27 @@
         </extensions>
         <plugins>
             <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>0.4.12</version>
+                <configuration>
+                    <imageName>alvex</imageName>
+                    <baseImage>rsippl/alfresco</baseImage>
+                    <resources>
+                        <resource>
+                            <targetPath>/alfresco/modules/platform/</targetPath>
+                            <directory>${project.build.directory}/dist/</directory>
+                            <include>com.alvexcore.repo.*.jar</include>
+                        </resource>
+                        <resource>
+                            <targetPath>/alfresco/modules/share/</targetPath>
+                            <directory>${project.build.directory}/dist/</directory>
+                            <include>com.alvexcore.share.*.jar</include>
+                        </resource>
+                    </resources>
+                </configuration>
+            </plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
                 <version>2.10</version>
