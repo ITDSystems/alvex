@@ -9,18 +9,12 @@ cache:
         - $HOME/.m2
         - $HOME/apache-maven-3.3.9
 
-before_install:
-    - echo "MAVEN_OPTS='-Xmx4g -XX:MaxPermSize=1g'" > ~/.mavenrc
-
 before_script:
     - wget https://raw.githubusercontent.com/ITDSystems/alvex-common/master/scripts/mvn.sh
     - chmod +x mvn.sh
 
 
 script:
-    - rm -rf $HOME/.m2/repository/com/alvexcore
-    - ./mvn.sh clean package
-    - ./mvn.sh clean package -P make-jar
     - rm -rf $HOME/.m2/repository/com/alvexcore
     - ./mvn.sh -f packaging_pom.xml -P orgchart,uploader,inform-policy,infavorites-document-association,custom-workflows,manager-dashboard-tasks,project-management,reports,workflow-shortcut-dashlet clean package
 
