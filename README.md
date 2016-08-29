@@ -2,7 +2,7 @@ Component build status (latest version):
 
 | Component                                                                                                | Status                                                                                                                                                                                |
 |----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Common](https://github.com/ITDSystems/alvex-common)                                                     | [![Build Status](https://travis-ci.org/ITDSystems/alvex-common.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-common)                                                     |
+| [Utils](https://github.com/ITDSystems/alvex-utils)                                                       | [![Build Status](https://travis-ci.org/ITDSystems/alvex-utils.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-utils)                                                       |
 | [Custom workflows](https://github.com/ITDSystems/alvex-custom-workflows)                                 | [![Build Status](https://travis-ci.org/ITDSystems/alvex-custom-workflows.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-custom-workflows)                                 |
 | [Orgchart](https://github.com/ITDSystems/alvex-orgchart)                                                 | [![Build Status](https://travis-ci.org/ITDSystems/alvex-orgchart.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-orgchart)                                                 |
 | [Uploader](https://github.com/ITDSystems/alvex-uploader)                                                 | [![Build Status](https://travis-ci.org/ITDSystems/alvex-uploader.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-uploader)                                                 |
@@ -13,25 +13,19 @@ Component build status (latest version):
 | [Workflow shortcut dashlet](https://github.com/ITDSystems/alvex-workflow-shortcut-dashlet)               | [![Build Status](https://travis-ci.org/ITDSystems/alvex-workflow-shortcut-dashlet.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-workflow-shortcut-dashlet)               |
 | [Infavorites document association](https://github.com/ITDSystems/alvex-infavorites-document-association) | [![Build Status](https://travis-ci.org/ITDSystems/alvex-infavorites-document-association.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-infavorites-document-association) |
 |                                                                                                          |                                                                                                                                                                                       |
-| **Meta**                                                                                                 | [![Build Status](https://travis-ci.org/ITDSystems/alvex-meta.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-meta)                                                         |
+| **Meta**                                                                                                 | [![Build Status](https://travis-ci.org/ITDSystems/alvex.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex)                                                                   |
 
 
 Alvex
 =====
 
-This repository contains all Alvex components as submodules. This repository may be used for two purposes:
-* build all components from source;
-* package pre-built jars into a single zip file that contains only required components.
-
-Building all components
------------------------
-
-To build all components from source use `mvn clean package` to produce *amps* or `mvn -P make-jar clean package` to produce installable *jars*.
+This repository contains all Alvex components as dependencies. This repository is supposed to be used to package 
+pre-built jars into a single zip file that contains only required components.
 
 Packaging pre-built jars
 ------------------------
 
-To create zip file that contains only required Alvex components use `mvn -f packaging_pom.xml -P MODULES package`, where `MODULES` is comma-separated list of modules.
+To create zip file that contains only required Alvex components use `mvn -P MODULES package`, where `MODULES` is comma-separated list of modules.
 At the moment following modules are available:
 
 * [custom-workflows](https://github.com/ITDSystems/alvex-custom-workflows)
