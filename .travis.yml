@@ -9,17 +9,17 @@ cache:
         - $HOME/.m2
         - $HOME/apache-maven-3.3.9
 
-before_script:
-    - wget https://raw.githubusercontent.com/ITDSystems/alvex-common/master/scripts/mvn.sh
-    - chmod +x mvn.sh
+before_install:
+    - ln -s ./scripts/mvn.sh ./mvnw
 
+install: true
 
 script:
     - rm -rf $HOME/.m2/repository/com/alvexcore
-    - ./mvn.sh -D package.all clean package
+    - ./mvnw -D package.all clean package
 
 after_success:
-    - ./mvn.sh -D package.all deploy
+    - ./mvnw -D package.all deploy
 
 notifications:
   email:
