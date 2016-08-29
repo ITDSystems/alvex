@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.alvexcore.share</groupId>
+    <artifactId>master</artifactId>
+    <version>1.1</version>
+    <name>Alvex share master pom</name>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>com.alvexcore</groupId>
+        <artifactId>master</artifactId>
+        <version>1.1</version>
+    </parent>
+
+    <properties>
+        <app.amp.client.war.artifactId>${alfresco.share.artifactId}</app.amp.client.war.artifactId>
+        <maven.tomcat.port>8081</maven.tomcat.port>
+        <alfresco.repo.url>http://localhost:8080/alfresco</alfresco.repo.url>
+        <alvex.assembly.descriptor>share</alvex.assembly.descriptor>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>${alfresco.groupId}</groupId>
+            <artifactId>share</artifactId>
+            <version>${alfresco.version}</version>
+            <classifier>classes</classifier>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.extensions.surf</groupId>
+            <artifactId>spring-surf-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>net.alchim31.maven</groupId>
+                <artifactId>yuicompressor-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>   
+</project>
