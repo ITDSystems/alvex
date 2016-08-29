@@ -139,6 +139,11 @@
     <profiles>
         <profile>
             <id>orgchart</id>
+			<activation>
+				<property>
+					<name>package.all</name>
+				</property>
+			</activation>
             <dependencies>
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
@@ -156,6 +161,11 @@
         </profile>
         <profile>
             <id>custom-workflows</id>
+			<activation>
+				<property>
+					<name>package.all</name>
+				</property>
+			</activation>
             <dependencies>
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
@@ -173,6 +183,11 @@
         </profile>
         <profile>
             <id>uploader</id>
+			<activation>
+				<property>
+					<name>package.all</name>
+				</property>
+			</activation>
             <dependencies>
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
@@ -190,6 +205,11 @@
         </profile>
         <profile>
             <id>project-management</id>
+			<activation>
+				<property>
+					<name>package.all</name>
+				</property>
+			</activation>
             <dependencies>
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
@@ -207,6 +227,11 @@
         </profile>
         <profile>
             <id>workflow-shortcut-dashlet</id>
+			<activation>
+				<property>
+					<name>package.all</name>
+				</property>
+			</activation>
             <dependencies>
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
@@ -224,6 +249,11 @@
         </profile>
         <profile>
             <id>reports</id>
+			<activation>
+				<property>
+					<name>package.all</name>
+				</property>
+			</activation>
             <dependencies>
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
@@ -241,6 +271,11 @@
         </profile>
         <profile>
             <id>manager-dashboard-tasks</id>
+			<activation>
+				<property>
+					<name>package.all</name>
+				</property>
+			</activation>
             <dependencies>
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
@@ -258,6 +293,11 @@
         </profile>
          <profile>
             <id>infavorites-document-association</id>
+			<activation>
+				<property>
+					<name>package.all</name>
+				</property>
+			</activation>
             <dependencies>
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
@@ -269,6 +309,11 @@
         </profile>
         <profile>
             <id>inform-policy</id>
+			<activation>
+				<property>
+					<name>package.all</name>
+				</property>
+			</activation>
             <dependencies>
                 <dependency>
                     <groupId>com.alvexcore.repo</groupId>
@@ -278,6 +323,6 @@
                 </dependency>
            </dependencies>
         </profile>
-       </profiles>
+	</profiles>
 
 </project>
