@@ -12,6 +12,9 @@ cache:
         - $HOME/.m2
         - $HOME/apache-maven-3.3.9
 
+before_cache:
+    - rm -rf $HOME/.m2/repository/com/alvexcore
+
 before_install:
     - ln -s ./scripts/mvn.sh ./mvnw
     - base64 -d <<< $MAVEN_DEPLOY_SETTINGS | tar -xz -C $HOME
