@@ -40,8 +40,8 @@
   </dependencyManagement>
   <pluginRepositories>
     <pluginRepository>
-      <id>itd-repository</id>
-      <url>http://maven.itdhq.com/pub/repository</url>
+      <id>itd-nexus</id>
+      <url>http://nexus.itdhq.com/content/repositories/releases/</url>
     </pluginRepository>
   </pluginRepositories>
   <build>
