@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.alvexcore.share</groupId>
     <artifactId>master</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
     <name>Alvex share master pom</name>
     <packaging>pom</packaging>
 
     <parent>
         <groupId>com.alvexcore</groupId>
         <artifactId>master</artifactId>
-        <version>1.1</version>
+        <version>1.2</version>
     </parent>
 
     <properties>

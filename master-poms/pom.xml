@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.alvexcore</groupId>
     <artifactId>master</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
     <name>Alvex master pom</name>
     <packaging>pom</packaging>
 
@@ -23,9 +23,13 @@
 
     <distributionManagement>
         <repository>
-            <id>itd-repository</id>
-            <url>ftp://maven.itdhq.com/pub/repository</url>
+            <id>itd-nexus</id>
+            <url>http://nexus.itdhq.com/content/repositories/releases/</url>
         </repository>
+        <snapshotRepository>
+            <id>itd-nexus</id>
+            <url>http://nexus.itdhq.com/content/repositories/snapshots/</url>
+        </snapshotRepository>
     </distributionManagement>
 
     <dependencyManagement>
@@ -48,13 +52,6 @@
     </pluginRepositories>
 
     <build>
-        <extensions>
-            <extension>
-                <groupId>org.apache.maven.wagon</groupId>
-                <artifactId>wagon-ftp</artifactId>
-                <version>2.10</version>
-            </extension>
-        </extensions>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
