@@ -12,6 +12,7 @@ Component build status (latest version):
 | [Inform policy](https://github.com/ITDSystems/alvex-inform-policy-extension)                             | [![Build Status](https://travis-ci.org/ITDSystems/alvex-inform-policy-extension.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-inform-policy-extension)                   |
 | [Workflow shortcut dashlet](https://github.com/ITDSystems/alvex-workflow-shortcut-dashlet)               | [![Build Status](https://travis-ci.org/ITDSystems/alvex-workflow-shortcut-dashlet.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-workflow-shortcut-dashlet)               |
 | [Infavorites document association](https://github.com/ITDSystems/alvex-infavorites-document-association) | [![Build Status](https://travis-ci.org/ITDSystems/alvex-infavorites-document-association.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-infavorites-document-association) |
+| [Datagrid](https://github.com/ITDSystems/alvex-datagrid)                                                 | [![Build Status](https://travis-ci.org/ITDSystems/alvex-datagrid.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-datagrid)                                                 |
 |                                                                                                          |                                                                                                                                                                                       |
 | **Meta**                                                                                                 | [![Build Status](https://travis-ci.org/ITDSystems/alvex.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex)                                                                   |
 
@@ -50,6 +51,7 @@ The simplest and recomended way to build Alvex is to package pre-built jars from
    * [inform-policy](https://github.com/ITDSystems/alvex-inform-policy-extension)
    * [workflow-shortcut-dashlet](https://github.com/ITDSystems/alvex-workflow-shortcut-dashlet)
    * [infavorites-document-association](https://github.com/ITDSystems/alvex-infavorites-document-association)
+   * [datagrid](https://github.com/ITDSystems/alvex-datagrid)
 
 Final zip archive contains two folders `repo` and `share` with jars that should to be copied to `$ALF_DIR/modules/platform` and `$ALF_DIR/modules/share` folders respectively.
 
