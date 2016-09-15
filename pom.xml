@@ -255,7 +255,7 @@
       </dependencies>
     </profile>
     <profile>
-      <id>workflow-shortcut-dashlet</id>
+      <id>workflow-permissions</id>
       <activation>
         <property>
           <name>package.all</name>
@@ -264,13 +264,13 @@
       <dependencies>
         <dependency>
           <groupId>com.alvexcore.repo</groupId>
-          <artifactId>workflow-shortcut-dashlet</artifactId>
+          <artifactId>workflow-permissions</artifactId>
           <version>1.16-SNAPSHOT</version>
           <classifier>installable</classifier>
         </dependency>
         <dependency>
           <groupId>com.alvexcore.share</groupId>
-          <artifactId>workflow-shortcut-dashlet</artifactId>
+          <artifactId>workflow-permissions</artifactId>
           <version>1.16-SNAPSHOT</version>
           <classifier>installable</classifier>
         </dependency>
