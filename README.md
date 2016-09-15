@@ -10,7 +10,7 @@ Component build status (latest version):
 | [Reports](https://github.com/ITDSystems/alvex-reports)                                                   | [![Build Status](https://travis-ci.org/ITDSystems/alvex-reports.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-reports)                                                   |
 | [Manager dashboard tasks](https://github.com/ITDSystems/alvex-manager-dashboard-tasks)                   | [![Build Status](https://travis-ci.org/ITDSystems/alvex-manager-dashboard-tasks.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-manager-dashboard-tasks)                   |
 | [Inform policy](https://github.com/ITDSystems/alvex-inform-policy-extension)                             | [![Build Status](https://travis-ci.org/ITDSystems/alvex-inform-policy-extension.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-inform-policy-extension)                   |
-| [Workflow shortcut dashlet](https://github.com/ITDSystems/alvex-workflow-shortcut-dashlet)               | [![Build Status](https://travis-ci.org/ITDSystems/alvex-workflow-shortcut-dashlet.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-workflow-shortcut-dashlet)               |
+| [Workflow permissions](https://github.com/ITDSystems/alvex-workflow-permissions)                         | [![Build Status](https://travis-ci.org/ITDSystems/alvex-workflow-permissions.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-workflow-permissions)                         |
 | [Infavorites document association](https://github.com/ITDSystems/alvex-infavorites-document-association) | [![Build Status](https://travis-ci.org/ITDSystems/alvex-infavorites-document-association.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-infavorites-document-association) |
 | [Datagrid](https://github.com/ITDSystems/alvex-datagrid)                                                 | [![Build Status](https://travis-ci.org/ITDSystems/alvex-datagrid.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-datagrid)                                                 |
 |                                                                                                          |                                                                                                                                                                                       |
@@ -49,7 +49,7 @@ The simplest and recomended way to build Alvex is to package pre-built jars from
    * [reports](https://github.com/ITDSystems/alvex-reports)
    * [manager-dashboard-tasks](https://github.com/ITDSystems/alvex-manager-dashboard-tasks)
    * [inform-policy](https://github.com/ITDSystems/alvex-inform-policy-extension)
-   * [workflow-shortcut-dashlet](https://github.com/ITDSystems/alvex-workflow-shortcut-dashlet)
+   * [workflow-permissions](https://github.com/ITDSystems/alvex-workflow-permissions)
    * [infavorites-document-association](https://github.com/ITDSystems/alvex-infavorites-document-association)
    * [datagrid](https://github.com/ITDSystems/alvex-datagrid)
 
