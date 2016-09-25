@@ -25,7 +25,7 @@ script:
     - rm -rf $HOME/.m2/repository/com/alvexcore
     - ./mvnw -D package.all clean package
     - ./mvnw docker:build
-    - docker run -d -p 127.0.0.1:8080:8080 alvex
+    - export CONTAINER_NAME=$( docker run -d -p 127.0.0.1:8080:8080 alvex )
     - ./scripts/run_integration_tests.sh docker
 
 after_success:
