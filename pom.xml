@@ -277,28 +277,6 @@
       </dependencies>
     </profile>
     <profile>
-      <id>reports</id>
-      <activation>
-        <property>
-          <name>package.all</name>
-        </property>
-      </activation>
-      <dependencies>
-        <dependency>
-          <groupId>com.alvexcore.repo</groupId>
-          <artifactId>reports</artifactId>
-          <version>0.20-SNAPSHOT</version>
-          <classifier>installable</classifier>
-        </dependency>
-        <dependency>
-          <groupId>com.alvexcore.share</groupId>
-          <artifactId>reports</artifactId>
-          <version>0.20-SNAPSHOT</version>
-          <classifier>installable</classifier>
-        </dependency>
-      </dependencies>
-    </profile>
-    <profile>
       <id>manager-dashboard-tasks</id>
       <activation>
         <property>

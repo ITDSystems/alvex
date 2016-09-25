@@ -7,7 +7,6 @@ Component build status (latest version):
 | [Orgchart](https://github.com/ITDSystems/alvex-orgchart)                                                 | [![Build Status](https://travis-ci.org/ITDSystems/alvex-orgchart.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-orgchart)                                                 |
 | [Uploader](https://github.com/ITDSystems/alvex-uploader)                                                 | [![Build Status](https://travis-ci.org/ITDSystems/alvex-uploader.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-uploader)                                                 |
 | [Project management](https://github.com/ITDSystems/alvex-project-management)                             | [![Build Status](https://travis-ci.org/ITDSystems/alvex-project-management.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-project-management)                             |
-| [Reports](https://github.com/ITDSystems/alvex-reports)                                                   | [![Build Status](https://travis-ci.org/ITDSystems/alvex-reports.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-reports)                                                   |
 | [Manager dashboard tasks](https://github.com/ITDSystems/alvex-manager-dashboard-tasks)                   | [![Build Status](https://travis-ci.org/ITDSystems/alvex-manager-dashboard-tasks.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-manager-dashboard-tasks)                   |
 | [Inform policy](https://github.com/ITDSystems/alvex-inform-policy-extension)                             | [![Build Status](https://travis-ci.org/ITDSystems/alvex-inform-policy-extension.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-inform-policy-extension)                   |
 | [Workflow permissions](https://github.com/ITDSystems/alvex-workflow-permissions)                         | [![Build Status](https://travis-ci.org/ITDSystems/alvex-workflow-permissions.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-workflow-permissions)                         |
@@ -46,7 +45,6 @@ The simplest and recomended way to build Alvex is to package pre-built jars from
    * [orgchart](https://github.com/ITDSystems/alvex-orgchart)
    * [uploader](https://github.com/ITDSystems/alvex-uploader)
    * [project-management](https://github.com/ITDSystems/alvex-project-management)
-   * [reports](https://github.com/ITDSystems/alvex-reports)
    * [manager-dashboard-tasks](https://github.com/ITDSystems/alvex-manager-dashboard-tasks)
    * [inform-policy](https://github.com/ITDSystems/alvex-inform-policy-extension)
    * [workflow-permissions](https://github.com/ITDSystems/alvex-workflow-permissions)
