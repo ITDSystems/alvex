@@ -12,6 +12,7 @@ Component build status (latest version):
 | [Workflow permissions](https://github.com/ITDSystems/alvex-workflow-permissions)                         | [![Build Status](https://travis-ci.org/ITDSystems/alvex-workflow-permissions.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-workflow-permissions)                         |
 | [Infavorites document association](https://github.com/ITDSystems/alvex-infavorites-document-association) | [![Build Status](https://travis-ci.org/ITDSystems/alvex-infavorites-document-association.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-infavorites-document-association) |
 | [Datagrid](https://github.com/ITDSystems/alvex-datagrid)                                                 | [![Build Status](https://travis-ci.org/ITDSystems/alvex-datagrid.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-datagrid)                                                 |
+| [Masterdata](https://github.com/ITDSystems/alvex-masterdata)                                                 | [![Build Status](https://travis-ci.org/ITDSystems/alvex-masterdata.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-masterdata)                                                 |
 |                                                                                                          |                                                                                                                                                                                       |
 | **Meta**                                                                                                 | [![Build Status](https://travis-ci.org/ITDSystems/alvex.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex)                                                                   |
 
@@ -50,6 +51,7 @@ The simplest and recomended way to build Alvex is to package pre-built jars from
    * [workflow-permissions](https://github.com/ITDSystems/alvex-workflow-permissions)
    * [infavorites-document-association](https://github.com/ITDSystems/alvex-infavorites-document-association)
    * [datagrid](https://github.com/ITDSystems/alvex-datagrid)
+   * [masterdata](https://github.com/ITDSystems/alvex-masterdata)
 
 Final zip archive contains two folders `repo` and `share` with jars that should to be copied to `$ALF_DIR/modules/platform` and `$ALF_DIR/modules/share` folders respectively.
 
