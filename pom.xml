@@ -352,5 +352,27 @@
         </dependency>
       </dependencies>
     </profile>
+    <profile>
+      <id>masterdata</id>
+      <activation>
+        <property>
+          <name>package.all</name>
+        </property>
+      </activation>
+      <dependencies>
+        <dependency>
+          <groupId>com.alvexcore.repo</groupId>
+          <artifactId>masterdata</artifactId>
+          <version>1.51-SNAPSHOT</version>
+          <classifier>installable</classifier>
+        </dependency>
+        <dependency>
+          <groupId>com.alvexcore.share</groupId>
+          <artifactId>masterdata</artifactId>
+          <version>1.51-SNAPSHOT</version>
+          <classifier>installable</classifier>
+        </dependency>
+      </dependencies>
+    </profile>
   </profiles>
 </project>
