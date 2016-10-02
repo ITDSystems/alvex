@@ -52,6 +52,7 @@ The simplest and recomended way to build Alvex is to package pre-built jars from
    * [infavorites-document-association](https://github.com/ITDSystems/alvex-infavorites-document-association)
    * [datagrid](https://github.com/ITDSystems/alvex-datagrid)
    * [masterdata](https://github.com/ITDSystems/alvex-masterdata)
+   * [middle-name](https://github.com/ITDSystems/alvex-middle-name)
 
 Final zip archive contains two folders `repo` and `share` with jars that should to be copied to `$ALF_DIR/modules/platform` and `$ALF_DIR/modules/share` folders respectively.
 
