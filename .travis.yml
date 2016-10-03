@@ -17,7 +17,7 @@ before_cache:
 
 before_install:
     - ln -s ./scripts/mvn.sh ./mvnw
-    - base64 -d <<< $MAVEN_DEPLOY_SETTINGS | tar -xz -C $HOME
+    - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then base64 -d <<< $MAVEN_DEPLOY_SETTINGS | tar -xz -C $HOME; fi'
 
 install: true
 
@@ -29,7 +29,7 @@ script:
     - ./scripts/run_integration_tests.sh docker
 
 after_success:
-    - ./mvnw -D package.all deploy
+    - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then ./mvnw -D package.all deploy; fi'
 
 notifications:
   email:
