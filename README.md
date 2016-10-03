@@ -13,6 +13,7 @@ Component build status (latest version):
 | [Infavorites document association](https://github.com/ITDSystems/alvex-infavorites-document-association) | [![Build Status](https://travis-ci.org/ITDSystems/alvex-infavorites-document-association.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-infavorites-document-association) |
 | [Datagrid](https://github.com/ITDSystems/alvex-datagrid)                                                 | [![Build Status](https://travis-ci.org/ITDSystems/alvex-datagrid.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-datagrid)                                                 |
 | [Masterdata](https://github.com/ITDSystems/alvex-masterdata)                                                 | [![Build Status](https://travis-ci.org/ITDSystems/alvex-masterdata.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-masterdata)                                                 |
+| [Middle name](https://github.com/ITDSystems/alvex-middle-name)                                                 | [![Build Status](https://travis-ci.org/ITDSystems/alvex-middle-name.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex-middle-name)                                                 |
 |                                                                                                          |                                                                                                                                                                                       |
 | **Meta**                                                                                                 | [![Build Status](https://travis-ci.org/ITDSystems/alvex.svg?branch=master)](https://travis-ci.org/ITDSystems/alvex)                                                                   |
 
@@ -52,6 +53,7 @@ The simplest and recomended way to build Alvex is to package pre-built jars from
    * [infavorites-document-association](https://github.com/ITDSystems/alvex-infavorites-document-association)
    * [datagrid](https://github.com/ITDSystems/alvex-datagrid)
    * [masterdata](https://github.com/ITDSystems/alvex-masterdata)
+   * [middle-name](https://github.com/ITDSystems/alvex-middle-name)
 
 Final zip archive contains two folders `repo` and `share` with jars that should to be copied to `$ALF_DIR/modules/platform` and `$ALF_DIR/modules/share` folders respectively.
 
