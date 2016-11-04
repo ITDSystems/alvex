@@ -74,3 +74,47 @@ To build several Alvex components and package them into a single zip one may use
 1. Build all required components and their depdendencies (see [previous section](#build-component-from-source)).
 2. Package required components as it's described [here](#package-pre-built-jars) with maven switched to offline mode. Note, that in offline mode maven will use local repository only, that's why all dependencies (including plugins) must be available in local repository, otherwise build will fail.
 
+## Include Alvex to another project via maven configuration
+
+To include Alvex to your Alfresco Maven SDK project, add the following configuration to the repo-side pom.xml:
+
+```
+<dependencies>
+  <dependency>
+    <groupId>com.alvexcore.repo</groupId>
+    <artifactId>utils</artifactId> // use here artifactId of the component you want to use
+    <version>1.19-SNAPSHOT</version> // chech the current version of the component
+    <classifier>installable</classifier>
+  </dependency>
+  ... // other dependencies
+</dependencies>
+
+<repositories>
+    <repository>
+        <id>alvex-public</id>
+        <url>http://nexus.itdhq.com/content/repositories/snapshots/</url>
+    </repository>
+</repositories>
+```
+
+For share-side pom.xml use similar configuration:
+```
+<dependencies>
+  <dependency>
+    <groupId>com.alvexcore.share</groupId>
+    <artifactId>utils</artifactId> // use here artifactId of the component you want to use
+    <version>1.19-SNAPSHOT</version> // chech the current version of the component
+    <classifier>installable</classifier>
+  </dependency>
+  ... // other dependencies
+</dependencies>
+
+<repositories>
+    <repository>
+        <id>alvex-public</id>
+        <url>http://nexus.itdhq.com/content/repositories/snapshots/</url>
+    </repository>
+</repositories>
+```
+
+If you use Alvex component that depends on other components, do not forget to include also all dependencies to your project.
