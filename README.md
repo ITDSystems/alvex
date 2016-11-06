@@ -116,5 +116,3 @@ For share-side pom.xml use similar configuration:
     </repository>
 </repositories>
 ```
-
-If you use Alvex component that depends on other components, do not forget to include also all dependencies to your project.
