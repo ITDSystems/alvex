@@ -6,16 +6,16 @@
     <includeBaseDirectory>false</includeBaseDirectory>
     <fileSets>
         <fileSet>
-            <directory>${project.build.directory}/dist</directory>
+            <directory>${project.basedir}/repo/target/dist/</directory>
             <includes>
-                <include>com.alvexcore.repo.*.jar</include>
+                <include>*.jar</include>
             </includes>
             <outputDirectory>repo</outputDirectory>
         </fileSet>
         <fileSet>
-            <directory>${project.build.directory}/dist</directory>
+            <directory>${project.basedir}/share/target/dist/</directory>
             <includes>
-                <include>com.alvexcore.share.*.jar</include>
+                <include>*.jar</include>
             </includes>
             <outputDirectory>share</outputDirectory>
         </fileSet>
