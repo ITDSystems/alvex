@@ -235,5 +235,21 @@
         </dependency>
       </dependencies>
     </profile>
+    <profile>
+      <id>business-calendar</id>
+      <activation>
+        <property>
+          <name>package.all</name>
+        </property>
+      </activation>
+      <dependencies>
+        <dependency>
+          <groupId>com.alvexcore.share</groupId>
+          <artifactId>business-calendar</artifactId>
+          <version>0.3-SNAPSHOT</version>
+          <classifier>installable</classifier>
+        </dependency>
+      </dependencies>
+    </profile>
   </profiles>
 </project>
