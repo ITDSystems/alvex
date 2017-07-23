@@ -182,7 +182,7 @@
         <dependency>
           <groupId>com.alvexcore.share</groupId>
           <artifactId>manager-dashboard-tasks</artifactId>
-          <version>1.18-SNAPSHOT</version>
+          <version>1.19-SNAPSHOT</version>
           <classifier>installable</classifier>
         </dependency>
       </dependencies>
