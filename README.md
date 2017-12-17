@@ -26,10 +26,7 @@ pre-built jars into a single zip file that contains only required components.
 
 # Downloads
 
-Alvex builds are automatically published to [nexus.itdhq.com](http://nexus.itdhq.com) by Travis CI. To download Alvex follow links below:
-
-* [~~latest release~~](http://nexus.itdhq.com/service/local/artifact/maven/redirect?r=releases&g=com.alvexcore&a=alvex&e=zip&v=LATEST)
-* [latest snapshot](http://nexus.itdhq.com/service/local/artifact/maven/redirect?r=snapshots&g=com.alvexcore&a=alvex&e=zip&v=LATEST)
+Alvex builds are automatically published to [nexus.itdhq.com](http://nexus.itdhq.com) by Travis CI. To download latest snapshot follow [this link](http://nexus.itdhq.com/service/local/artifact/maven/redirect?r=snapshots&g=com.alvexcore&a=alvex&e=zip&v=LATEST).
 
 # Build
 
