@@ -26,10 +26,6 @@ Component build status (latest version):
 This repository contains all Alvex components as dependencies. This repository is supposed to be used to package 
 pre-built jars into a single zip file that contains only required components.
 
-# Downloads
-
-Alvex builds are automatically published to [nexus.itdhq.com](http://nexus.itdhq.com) by Travis CI. To download latest snapshot follow [this link](http://nexus.itdhq.com/service/local/artifact/maven/redirect?r=snapshots&g=com.alvexcore&a=alvex&e=zip&v=LATEST).
-
 # Build
 
 There are several ways to build Alvex.
@@ -79,6 +75,15 @@ For share-side pom.xml use similar configuration:
 </repositories>
 ```
 
+## Build component from source
+
+Although in most cases there is no need to build a **single** component from source, one may use the following steps to do it:
+
+1. Clone desired component repository (e.g. [orgchart](https://github.com/ITDSystems/alvex-orgchart)) and checkout specific release tag (or just HEAD to build latest version).
+2. Run `mvn clean install` or `mvn -P make-jar clean install` to build `amp` or `jar` respectively and install it to local repository. Note, that almost every component has `repo` and `share` extension, thus previous command has to be run two times in different folders. Also not that JAR produced by `make-jar` profile **does not** contain all component dependencies (if any) thus usage of such single JAR most probably will break an Alfresco installation.
+
+Since Alvex components use Alfresco Maven SDK 2.x it's possible to use all facilities provided by SDK (e.g. `-P amp-to-war integration-test`).
+
 
 ## Package pre-built jars
 
@@ -103,19 +108,3 @@ The simplest and recomended way to build Alvex is to package pre-built jars from
 
 Final zip archive contains two folders `repo` and `share` with jars that should to be copied to `$ALF_DIR/modules/platform` and `$ALF_DIR/modules/share` folders respectively.
 
-## Build component from source
-
-Although in most cases there is no need to build a **single** component from source, one may use the following steps to do it:
-
-1. Clone desired component repository (e.g. [orgchart](https://github.com/ITDSystems/alvex-orgchart)) and checkout specific release tag (or just HEAD to build latest version).
-2. Run `mvn clean install` or `mvn -P make-jar clean install` to build `amp` or `jar` respectively and install it to local repository. Note, that almost every component has `repo` and `share` extension, thus previous command has to be run two times in different folders. Also not that JAR produced by `make-jar` profile **does not** contain all component dependencies (if any) thus usage of such single JAR most probably will break an Alfresco installation.
-
-Since Alvex components use Alfresco Maven SDK 2.x it's possible to use all facilities provided by SDK (e.g. `-P amp-to-war integration-test`).
-
-## Build Alvex bundle from source
-
-
-To build several Alvex components and package them into a single zip one may use the following steps:
-
-1. Build all required components and their depdendencies (see [previous section](#build-component-from-source)).
-2. Package required components as it's described [here](#package-pre-built-jars) with maven switched to offline mode. Note, that in offline mode maven will use local repository only, that's why all dependencies (including plugins) must be available in local repository, otherwise build will fail.
