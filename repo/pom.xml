@@ -283,5 +283,37 @@
         </dependency>
       </dependencies>
     </profile>
+    <profile>
+      <id>aikau-components</id>
+      <activation>
+        <property>
+          <name>package.all</name>
+        </property>
+      </activation>
+      <dependencies>
+        <dependency>
+          <groupId>com.alvexcore.repo</groupId>
+          <artifactId>aikau-components</artifactId>
+          <version>1.0-SNAPSHOT</version>
+          <classifier>installable</classifier>
+        </dependency>
+      </dependencies>
+    </profile>
+    <profile>
+      <id>registers</id>
+      <activation>
+        <property>
+          <name>package.all</name>
+        </property>
+      </activation>
+      <dependencies>
+        <dependency>
+          <groupId>com.alvexcore.repo</groupId>
+	  <artifactId>registers</artifactId>
+          <version>0.1-SNAPSHOT</version>
+          <classifier>installable</classifier>
+        </dependency>
+      </dependencies>
+    </profile>
   </profiles>
 </project>
