@@ -1,3 +1,5 @@
+**This extensions pack for Alfresco is obsolete and unsupported. Use it on your own risk.**
+
 Component build status (latest version):
 
 | Component  | Component State | Build Status |
